@@ -1,7 +1,7 @@
 # FundesplayHackaton
 
 
-A login esta creada una interfase en asp.net ( como se peude ver por los "<asp" la qual es una tabla con los label de texto las textbox para usuario y pasaporte y los botones 1 para comprobar si
+A login esta creada una interfase en asp.net ( como se puede ver por los "<asp" la qual es una tabla con los label de texto las textbox para usuario y pasaporte y los botones 1 para comprobar si
 los valores coinciden con los de la base de datos y la otra simplemente te redirige a register)
 Hay que tener en cuenta que la contraseña que introduces pasa a estar cifrada junto con un codigo que se recibe del usuario ( con el nombre pobtienes la clase ) que luego se usa para cifrar la contrasenña
 y comparas la contraseña cifrada con la contraseña de la base de datos que tambien esta cifrada
