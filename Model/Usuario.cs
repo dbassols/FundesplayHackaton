@@ -7,12 +7,14 @@ namespace David_Bassols_Hackaton_Backend.Model
 {
     public class Usuario
     {
+
+        //creas los atributos en privado
         private int id;
         private string nombre;
         private string password;
         private string keys;
   
-
+        // haces el getter y setter de cada atributo
         public int Id
         {
             get { return id; }
@@ -34,6 +36,7 @@ namespace David_Bassols_Hackaton_Backend.Model
             set { keys = value; }
         }
 
+        //creas los constructores que utilizaras en otras clases para crear usuarios (no usamos en overwrite (toString)) por lo que no lo he creado esta vez
         public Usuario(string Nombre, string Password, string Keys)
         {
             this.Nombre = Nombre;
